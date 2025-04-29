@@ -1,5 +1,5 @@
 function containCommonItems<T extends string | number | symbol>(
-  arr1: T[],
+  arr1: Array<T>,
   arr2: T[]
 ): boolean {
   const map: Record<T, boolean> = {} as Record<T, boolean>;
